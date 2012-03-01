@@ -1097,7 +1097,7 @@ static unsigned long omap3_clkoutx2_recalc(struct clk *clk)
 	return rate;
 }
 
-#define G2_MAX_CPU_FREQUENCY 600000
+#define G2_MAX_CPU_FREQUENCY 800000 
 /* Common clock code */
 
 /*
