@@ -1123,8 +1123,8 @@ void omap2_clk_init_cpufreq_table(struct cpufreq_frequency_table **table)
 		freq_table[i].frequency = prcm->rate / 1000;
 		/* The change below is for the gault2 requiement of setting the
 		cpu clock freq to a max of 600MHz */
-		if (freq_table[i].frequency > G2_MAX_CPU_FREQUENCY)
-			freq_table[i].frequency = CPUFREQ_ENTRY_INVALID;
+		/* Horse Shit if (freq_table[i].frequency > G2_MAX_CPU_FREQUENCY)
+			freq_table[i].frequency = CPUFREQ_ENTRY_INVALID; */
 		i++;
 	}
 

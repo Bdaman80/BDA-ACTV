@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.32.9
- * Mon Jan 30 17:31:25 2012
+ * Thu Mar  1 00:34:30 2012
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_USB_MUSB_HDRC 1
@@ -419,7 +419,7 @@
 #define CONFIG_INPUT 1
 #define CONFIG_VIRT_TO_BUS 1
 #define CONFIG_MD 1
-#define CONFIG_LOCALVERSION "BDA-ACTV_1.0.1"
+#define CONFIG_LOCALVERSION "BDA-ACTV_2012-3-1"
 #define CONFIG_USB_DEVICEFS 1
 #define CONFIG_ZLIB_INFLATE 1
 #define CONFIG_PM_DEEPSLEEP 1
